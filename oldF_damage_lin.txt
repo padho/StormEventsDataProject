@@ -1,0 +1,20 @@
+Fujita scale linear model: COMBINED_FUJITA, DAMAGE_PROPERTY                       OLS Regression Results                       
+Dep. Variable:   ,DAMAGE_PROPERTY ,  R-squared:         ,   0.055   
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.055   
+Method:          ,Least Squares   ,  F-statistic:       ,   883.7   
+Date:            ,Mon, 06 Aug 2018,  Prob (F-statistic):,8.58e-189  
+Time:            ,17:01:16        ,  Log-Likelihood:    ,-2.6190e+05
+No. Observations:, 15166          ,  AIC:               ,5.238e+05  
+Df Residuals:    , 15164          ,  BIC:               ,5.238e+05  
+Df Model:        ,     1          ,                     ,           
+Covariance Type: ,nonrobust       ,                     ,           
+               ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const          ,-5.564e+05, 7.43e+04,   -7.491, 0.000,-7.02e+05,-4.11e+05
+COMBINED_FUJITA,   2.3e+06, 7.74e+04,   29.727, 0.000, 2.15e+06, 2.45e+06
+Omnibus:      ,41121.399,  Durbin-Watson:     ,   1.533      
+Prob(Omnibus):, 0.000   ,  Jarque-Bera (JB):  ,1629715422.779
+Skew:         ,33.438   ,  Prob(JB):          ,    0.00      
+Kurtosis:     ,1607.535 ,  Cond. No.          ,    1.86      
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

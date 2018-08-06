@@ -1,0 +1,20 @@
+Fujita scale linear model: COMBINED_FUJITA, DEATHS_DIRECT                      OLS Regression Results                      
+Dep. Variable:   ,DEATHS_DIRECT   ,  R-squared:         ,   0.054 
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.054 
+Method:          ,Least Squares   ,  F-statistic:       ,   864.1 
+Date:            ,Mon, 06 Aug 2018,  Prob (F-statistic):,9.00e-185
+Time:            ,17:01:17        ,  Log-Likelihood:    , -13249. 
+No. Observations:, 15166          ,  AIC:               ,2.650e+04
+Df Residuals:    , 15164          ,  BIC:               ,2.652e+04
+Df Model:        ,     1          ,                     ,         
+Covariance Type: ,nonrobust       ,                     ,         
+               ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const          ,   -0.0480,    0.006,   -8.526, 0.000,   -0.059,   -0.037
+COMBINED_FUJITA,    0.1724,    0.006,   29.396, 0.000,    0.161,    0.184
+Omnibus:      ,39412.127,  Durbin-Watson:     ,   1.887     
+Prob(Omnibus):, 0.000   ,  Jarque-Bera (JB):  ,963584152.053
+Skew:         ,30.089   ,  Prob(JB):          ,    0.00     
+Kurtosis:     ,1236.385 ,  Cond. No.          ,    1.86     
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
