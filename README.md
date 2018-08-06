@@ -20,8 +20,6 @@ slightly more correlated with each other, but still not strongly.
 Correlations     | DAMAGE_PROPERTY   | DEATHS_DIRECT  |  INJURIES_DIRECT
 -----------------|-------------------|----------------|------------------
 DAMAGE_PROPERTY  |       1.000000    |   0.030077     |    0.084751
-
-
 DEATHS_DIRECT    |       0.030077    |   1.000000     |    0.168151
 INJURIES_DIRECT  |       0.084751    |   0.168151     |   1.000000
 
