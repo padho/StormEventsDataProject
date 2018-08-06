@@ -48,8 +48,11 @@ and injuries are counted (if they are at all) in the pre-2005 data.  So, for thi
 
 * Take Away:  
 Top 3 Worst events per damage type
+
 Property damage:  Tropical systems ( $1.47e11), Floods ( $1.44e11), Coastal Waves, i.e. storm surge, coastal flood, tsunami ( $5.5e10)
+
 Direct Deaths: Heat (2815), Flood (1971), Tornado (1742)
+
 Direct Injuries:  Tornado (24,493), Heat (15,364), Thunderstorms (12,012)
 
 
@@ -67,10 +70,12 @@ the model taking the form:
 There are 7 different classifications of flood cause, so 6 dummy variables are needed in addition to the linear constant (\beta_0).
 
 How good is the model?  Here's a brief summary of the model statistics:
-                       R^2    F-statistic     P(F-statistic)
-Property damage       0.001      4.471          0.000157  
-Direct deaths         0.001      6.433          8.69e-7
-Direct injuries       0.001      0.1232         0.994  
+
+Model stats       |    R^2     | F-statistic    |  P(F-statistic)
+------------------|------------|----------------|-------------------
+Property damage   |    0.001   |   4.471        |  0.000157  
+Direct deaths     |    0.001   |   6.433        |  8.69e-7
+Direct injuries   |    0.001   |   0.1232       |  0.994  
  
 Take away:  Property damage and deaths are weakly preditable based on the flood cause, but the model isn't exceptionally strong.
             The model for direct injuries is no better than the null hypothesis-- in other words, knowing the flood cause tells you 
@@ -92,27 +97,32 @@ laboratory studies of potential wind-speed damage.  So it's naturally expected t
 modeled by the Fujita scale, which is essentially a measure of maximum local physical property damage.  But since the F-scale isn't 
 actually  direct measure of financial cost (and especially not of deaths or injuries), so this linear model is still reasonable.
 
-                       R^2    F-statistic     P(F-statistic)
-Property damage       0.018      563.2          2.29e-123  
-Direct deaths         0.031      974.9          1.13e-210
-Direct injuries       0.040      1260           1.68e-270
+Linear model stats  |   R^2   | F-statistic  |   P(F-statistic)
+--------------------|---------|--------------|-------------------
+Property damage     |  0.018  |   563.2      |    2.29e-123  
+Direct deaths       |  0.031  |   974.9      |    1.13e-210
+Direct injuries     |  0.040  |   1260       |    1.68e-270
+
 * likewise, \beta_0 and \beta_1 have very tiny (<0.000) p-values.
 
                              ------------- ------------- ------------- ------------- -------------
 3c.  Because the Fujita scale was updated in 2007 to reflect improved information about damage caused by wind, it's natural to ask...
 Does the Enhanced Fujita scale do a better job of predicting the damage data than the older Fujita scale?
 
-Property damage     R^2    F-statistic     P(F-statistic)
-Old Fujita Scale    0.55      833.7          8.58e-189
-Enh. Fujita         0.019     300.9          9.23e-67
+Property damage   |   R^2   | F-statistic  |   P(F-statistic)
+------------------|---------|--------------|-------------------
+Old Fujita Scale  |   0.55  |    833.7     |     8.58e-189
+Enh. Fujita       |   0.019 |    300.9     |     9.23e-67
 
-Deaths              R^2    F-statistic     P(F-statistic)
-Old Fujita Scale    0.054     864.1          9e-185
-Enh. Fujita         0.030     472.2          3.97e-103
+Deaths            |  R^2   | F-statistic  |   P(F-statistic)
+------------------|--------|--------------|---------------------
+Old Fujita Scale  |  0.054 |    864.1     |     9e-185
+Enh. Fujita       |  0.030 |    472.2     |     3.97e-103
 
-Injuries            R^2    F-statistic     P(F-statistic)
-Old Fujita Scale    0.086     1432           1.48e-299
-Enh. Fujita         0.031     479.9          9.21e-105
+Injuries          |  R^2   | F-statistic   |  P(F-statistic)
+------------------|--------|---------------|---------------------------------
+Old Fujita Scale  |  0.086 |    1432       |    1.48e-299
+Enh. Fujita       |  0.031 |    479.9      |    9.21e-105
 
 Take away:  Surprisingly, the new Enhanced Fujita scale doesn't do a better job than the old one!  This warrants further investigation:
 maybe outlier events (e.g. the Joplin tornado) are having a stronger effect on the linear model than might be expected.  It's also 
