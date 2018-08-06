@@ -60,6 +60,7 @@ Direct Injuries:  Tornado (24,493), Heat (15,364), Thunderstorms (12,012)
 3.  Linear models of various major categories.  How are the costs (deaths, injuries, property damage) related to more detailed
 specifiecs about the event type?  (Note: There are plots of the data with linear models for all parts of question 3, but because
 the most severe events have an exceptionally high cost, the linear models look relatively unimpressive on the full scale plots.)
+
                              ------------- ------------- ------------- ------------- -------------
 3a)  How does the cost of a flood relate to the flood's cause?  Does knowing the cause of the flood provide any help in predicting
 the cost of the flood?
@@ -81,6 +82,7 @@ Direct injuries   |    0.001   |   0.1232       |  0.994
 Take away:  Property damage and deaths are weakly preditable based on the flood cause, but the model isn't exceptionally strong.
             The model for direct injuries is no better than the null hypothesis-- in other words, knowing the flood cause tells you 
             nothing about the number of injuries.
+            
                              ------------- ------------- ------------- ------------- -------------
 3b) What about tornadoes vs. the Fujita scale?  In looking at the Fujita scale, there was a redefinition of the criteria used to 
 determing the Fujita scale from the Fujita scale to the Enhanced Fujita scale in 2007.  The tornado categorizations are roughly
