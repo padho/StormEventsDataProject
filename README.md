@@ -17,10 +17,11 @@ Using a Pearson correlation table to compare property damage, direct deaths, and
 it looks like property damage is essentially uncorrelated with deaths or injuries.  Injuries and deaths are
 slightly more correlated with each other, but still not strongly.
 
-                 DAMAGE_PROPERTY  DEATHS_DIRECT  INJURIES_DIRECT
-DAMAGE_PROPERTY         1.000000       0.030077         0.084751
-DEATHS_DIRECT           0.030077       1.000000         0.168151
-INJURIES_DIRECT         0.084751       0.168151         1.000000
+                 | DAMAGE_PROPERTY   | DEATHS_DIRECT  |  INJURIES_DIRECT
+-----------------|-------------------|----------------|-----------
+DAMAGE_PROPERTY  |       1.000000    |   0.030077     |    0.084751
+DEATHS_DIRECT    |       0.030077    |   1.000000     |    0.168151
+INJURIES_DIRECT  |       0.084751    |   0.168151     |   1.000000
 
 See also: "Death_inj_by_yr.pdf", a plot of total direct deaths and direct injuries vs. year
 
