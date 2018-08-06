@@ -58,7 +58,8 @@ Direct Injuries:  Tornado (24,493), Heat (15,364), Thunderstorms (12,012)
 
 --------------------------------------------------------------------------------------------------------------------------------
 3.  Linear models of various major categories.  How are the costs (deaths, injuries, property damage) related to more detailed
-specifiecs about the event type?
+specifiecs about the event type?  (Note: There are plots of the data with linear models for all parts of question 3, but because
+the most severe events have an exceptionally high cost, the linear models look relatively unimpressive on the full scale plots.)
                              ------------- ------------- ------------- ------------- -------------
 3a)  How does the cost of a flood relate to the flood's cause?  Does knowing the cause of the flood provide any help in predicting
 the cost of the flood?
