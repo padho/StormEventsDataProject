@@ -132,3 +132,4 @@ maybe outlier events (e.g. the Joplin tornado) are having a stronger effect on t
 possible that improved weather forcasting and/or improved building construction has reduced the correlation between tornado
 strength and building cost.  
 
+Regrouped files; added Edit_history.txt

@@ -1,0 +1,20 @@
+Fujita scale linear model: COMBINED_FUJITA, INJURIES_DIRECT                      OLS Regression Results                      
+Dep. Variable:   ,INJURIES_DIRECT ,  R-squared:         ,   0.086 
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.086 
+Method:          ,Least Squares   ,  F-statistic:       ,   1432. 
+Date:            ,Mon, 06 Aug 2018,  Prob (F-statistic):,1.48e-299
+Time:            ,17:01:17        ,  Log-Likelihood:    , -50238. 
+No. Observations:, 15166          ,  AIC:               ,1.005e+05
+Df Residuals:    , 15164          ,  BIC:               ,1.005e+05
+Df Model:        ,     1          ,                     ,         
+Covariance Type: ,nonrobust       ,                     ,         
+               ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const          ,   -0.6093,    0.065,   -9.441, 0.000,   -0.736,   -0.483
+COMBINED_FUJITA,    2.5436,    0.067,   37.844, 0.000,    2.412,    2.675
+Omnibus:      ,34673.468,  Durbin-Watson:     ,   1.766     
+Prob(Omnibus):, 0.000   ,  Jarque-Bera (JB):  ,277990266.795
+Skew:         ,22.110   ,  Prob(JB):          ,    0.00     
+Kurtosis:     ,664.786  ,  Cond. No.          ,    1.86     
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

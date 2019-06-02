@@ -1,0 +1,26 @@
+Multiple Linear Regression for Flood Causes: Direct Deaths 
+                       OLS Regression Results                      
+Dep. Variable:   ,DEATHS_DIRECT   ,  R-squared:         ,   0.001  
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.001  
+Method:          ,Least Squares   ,  F-statistic:       ,   6.433  
+Date:            ,Mon, 06 Aug 2018,  Prob (F-statistic):,8.69e-07  
+Time:            ,17:01:12        ,  Log-Likelihood:    ,  13281.  
+No. Observations:, 25807          ,  AIC:               ,-2.655e+04
+Df Residuals:    , 25800          ,  BIC:               ,-2.649e+04
+Df Model:        ,     6          ,                     ,          
+Covariance Type: ,nonrobust       ,                     ,          
+                            ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const                       , 2.641e-16,    0.033, 7.96e-15, 1.000,   -0.065,    0.065
+Heavy Rain                  ,    0.0115,    0.033,    0.348, 0.728,   -0.054,    0.077
+Heavy Rain / Snow Melt      ,    0.0056,    0.033,    0.168, 0.867,   -0.060,    0.071
+Heavy Rain / Tropical System,    0.0422,    0.034,    1.253, 0.210,   -0.024,    0.108
+Ice Jam                     ,-2.651e-16,    0.034,-7.84e-15, 1.000,   -0.066,    0.066
+Planned Dam Release         ,    0.0294,    0.038,    0.784, 0.433,   -0.044,    0.103
+Dam / Levee Break           ,    0.0175,    0.038,    0.458, 0.647,   -0.058,    0.093
+Omnibus:      ,62334.076,  Durbin-Watson:     ,   1.945      
+Prob(Omnibus):, 0.000   ,  Jarque-Bera (JB):  ,1369171097.885
+Skew:         ,24.912   ,  Prob(JB):          ,    0.00      
+Kurtosis:     ,1130.306 ,  Cond. No.          ,    130.      
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
