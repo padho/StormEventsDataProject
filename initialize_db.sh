@@ -1,0 +1,6 @@
+#!/bin/bash
+
+createdb storms
+
+
+

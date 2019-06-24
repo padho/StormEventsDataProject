@@ -14,9 +14,14 @@ Note: None of these evaluations incorporate inflation yet.
 
 ## 1. Scrape
 
-First, run `python scrape.py` to scrape the .csv files from the NOAA Storm Events Database into project 
-home folder. The .csv files will be stored in 3 folders: /details, /fatalities, /locations
+First, run `python scrape.py` in $(PROJECT_HOME) folder to scrape the .csv files from the NOAA Storm Events Database into project 
+home folder. The .csv files will be stored in 3 folders: $(PROJECT_HOME)/details, $(PROJECT_HOME)fatalities, $(PROJECT_HOME)/locations
 
 ## 2. Clean 
-
+In $(PROJECT_HOME), run 
+```
+bash initialize_db.sh
+python clean.py postgresql_username postgresql_password
+```
+in order to create database and upload storm-events details after 1996
 
