@@ -28,6 +28,7 @@ def convert_num( x):
 		if ( x == '' or x == 'NaN'):
 			return 0.0
 		else:
+			x = str(x)
 			num_str = get_num(x)
 			num = float(num_str)
 			if x.find('K') != -1:

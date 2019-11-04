@@ -17,12 +17,14 @@ for link in soup.find_all('a'):
 		
 for link in urls:
 	r = requests.get( website + link)
+	print( website + link)
 	with open( link, "wb") as file:
 		file.write( r.content)
 
-details_directory = './details'
-fatalities_directory = './fatalities'
-locations_directory = './locations'
+
+details_directory = './details/'
+fatalities_directory = './fatalities/'
+locations_directory = './locations/'
 
 for root, dirs, files in os.walk("."):
 	for file in files:
